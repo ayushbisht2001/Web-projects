@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Satisfy&display=swap');
+
+
+body{
+  background-color:rgb(56,34,67);
+  }
+
+
+#title{
+    text-align: center;
+    font-size: 50px;
+    font-family: Dancing Script;
+    color: rgb(255,56,449);
+ }
+
+#description{
+    text-align: center;
+    margin: 5px auto 10px auto;
+    font-size: 35px;
+    font-family: Satisfy;
+    color: pink;
+ }
+
+#survey-form
+{
+    align : center;
+ }
+
+#name{
+   display: block;
+   width: 100%;
+   height: 40px;
+   padding-left:10px;
+   border: 1px solid #ced4da;
+   border-radius:5px;
+   margin: 10px auto 30px auto;
+ }
+#email{
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding-left:10px;
+  border: 1px solid #ced4da;
+  border-radius:5px;
+  margin: 10px auto 30px auto;
+ }
+#number{
+ display: block;
+  width: 100%;
+  height: 40px;
+  padding-left:10px;
+   border: 1px solid #ced4da;
+ border-radius:5px;
+ margin: 10px auto 30px auto;
+
+}
+#decor{
+background-color:pink;
+width: 100%;
+margin: 50px auto 0 auto;
+padding:20px
+  }
+
+
+@media (min-width: 576px) {
+  #decor {
+    max-width: 540px;
+  }}
+  @media(max-width:678px)
+  { # decor{
+   max-width:380px;
+    }
+    }
+  @media (min-width: 768px) {
+  #decor{
+    max-width: 720px;
+  }
+}
+
+
+#submit{
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding-left:10px;
+    border: 1px solid #ced4da;
+   border-radius:5px;
+   margin: 10px auto 30px auto;
+}
+
+textarea{
+     width: 100%;
+    height:160px;
+    margin: 5px auto 5px auto;
+    resize:vertical;
+    padding:7px;
+    border-radius: 5px;
+   }
+
+.boxes{
+  margin: 3px 10px 1.25rem -5.5px;
+  padding: 0.25rem;
+      }
+
+#dropdown{
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding-left:10px;
+  border: 1px solid #ced4da;
+ border-radius:5px;
+ margin: 10px auto 30px auto;
+  }
+
+#name-label {
+   width:100%;
+ }
+
+#email-label{
+  width:100%;
+}
+#drop-label
+{
+  width:100%;
+}
+
+  #number-label
+{
+ width:100%;
+  }
+
+.checkbox{
+ padding: 10px;
+ max-width:100%;
+margin: 10px 7px 10px auto;}
+
+.check-label{
+max-width:100%;
+  margin : 50px auto 10px auto ;
+}
+
+.button
+{max-width:100%;
+margin: 10px 7px 10px auto;}
+form { padding: 10px;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+}

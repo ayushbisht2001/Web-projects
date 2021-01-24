@@ -1,0 +1,77 @@
+<html>
+<body>
+<main id="main">
+<header>
+      <link rel="stylesheet" href="surveyCSS.css">
+      <h1 id="title">freeCodeCamp survey form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+</header>
+
+ <div id="decor">
+     <form id="survey-form">
+     <div class="boxes">
+      <label  for ="name" id = "name-label" >Name</label>
+      <input type ="text" id = "name" name="Name" placeholder ="Enter your name"required/>
+      </div>
+
+      <div class="boxes">
+      <label for = "email" id = "email-label" >Email</label>
+      <input type = "email" id="email" name ="Email" placeholder ="Email" required/>
+      </div>
+
+      <div class="boxes">
+      <label for="number" id="number-label" >AGE</label>
+      <input type ="number" id="number" name="Number" placeholder ="Age" min = 15  max = 70 required/>
+      </div>
+
+
+
+      <label for ="dropdown" id="drop-label">What is your current designation?</label>
+        <select id="dropdown">
+          <option disabled selected value>Select an option</option>
+          <option   value="Student">Student</option>
+          <option   value="web designer">Web-Designer</option>
+          <option  value="Software Engineer">Software Engineer</option>
+          <option   value="full time learner">full time learner</option>
+        </select>
+
+
+        <p>Would like to prefer FreeCodeCamp to others</p>
+     <label>
+       <input name="user's feedback" type="radio" class="button"  value="Absolutely" />Absolutely</label><br>
+
+     <label>
+       <input name="user's feedback" type ="radio" class="button"   value="May be"/>May be
+     </label>
+     <br>
+
+    <label>
+        <input name="user's feedback" type="radio" class ="button" value="not sure"/>Not Sure
+    </label><br>
+
+     <label>
+        <input  type="radio" class="button" name= "user's feedback" value="Not to answer" />Not to answer
+     </label>
+
+      <p> Which lesson would you like most in freeCodeCamp</p>
+      <label  class="check-label">
+        <input type="checkbox" class="checkbox" name="Interest" value="Resposive web design" />Resposive web design</label><br>
+
+      <label  class="check-label">
+        <input type="checkbox" class="checkbox" name="Interest" value="Java script lesson"/>Java script lesson</label><br>
+
+      <label  class="check-label">
+        <input type="checkbox" class="checkbox" name="Interest" value="Competetive Coding Practice"/>Competetive Coding Practice</label><br>
+
+    <div class="boxes">
+     <p>Any other suggestion </p>
+    <textarea name="comments" placeholder="Enter your comments here....."  ></textarea>
+    </div>
+     <button type="submit" id ="submit">Submit</button>
+
+  </form>
+
+</div>
+</main>
+</body>
+</html>
